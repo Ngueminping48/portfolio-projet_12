@@ -59,24 +59,21 @@
   <body>
     <header id="top">
         <nav>
-          <a class="logo-link" href="#top"
-            ><img
-              class="logo"
-              src="./assets/images/logo.webp"
-              alt="mon logo web.oc.projet_12"
-          /></a>
+          <a class="logo-link" href="/"
+            ><span>Anne Laurence Kameni</span></a>
           <ul id="list">
             
+            <li><a href="#about">A propos</a></li>
+            <li><a href="#projets">Mes projets</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#parcours">Parcours</a></li>
+            <li><a href="#coordonnees">Me contacter</a></li>
             <li>
-              <a href="https://github.com/Ngueminping48/"
+              <a target="_blank" href="https://github.com/Ngueminping48/"
                 ><i class="fa-brands fa-github"></i
               ></a>
             </li>
-            <li><a href="#coordonnees">Me contacter</a></li>
-            <li><a href="#projets">Mes projets</a></li>
-            <li><a href="">CV</a></li>
           </ul>
-          <button class="dark-mode-btn">🌤</button>
         </nav>
       </header>
 
@@ -89,15 +86,15 @@
           <h1>Anne Laurence KAMENI</h1>
           <h2>Integrateur web</h2>
           <p>Bienvenu sur mon portfolio</p>
-          <a class="btn-cv" href="assets/cv.pdf" download>Téléchargez mon CV</a>
+          <a class="btn-cv" href="/assets/CV_WEB Anne Laurence.pdf" download>Téléchargez mon CV <i class="fa-solid fa-download"></i></a>
       </section>
 
       <main>
-        <section class="presentation">
+        <section class="presentation" id="about">
           <h2>Qui suis-je?</h2>
   
           <p style="line-height: 1.5">
-            <img src="assets/images/logo.webp" alt="" />integrateur web,
+            integrateur web,
             passionné&#x1F600; dans le domaine du web.
             <br />
             Je conçois et réalise des sites web en front-end .
@@ -105,10 +102,7 @@
             Je suis donc un développeur de code&#x1F4BB;,
             <br />
             J'ai quelques projets intéressants
-            <a href="https://github.com/Ngueminping48">à voir</a>
-            <br />
-            Vous souhaitez avoir mon CV au format PDF c'est par ici
-            <a href="../assets/cv.pdf">&#x1F4C4;</a>
+            <a href="https://github.com/Ngueminping48?tab=repositories" target="_blank">à voir</a>
           </p>
         </section>
       </main>
@@ -141,34 +135,18 @@
       </section>
 
 
-    <section class="competences">
+    <section class="competences" id="skills">
 
         <h2>Mes compétences</h2>
         <h3>Mes compétences technologiques pour le site Web</h3>
 
         <ul class="liste">
-          <li>
-            <figure class="competence-integration-web">
-              <i class="fa-solid fa-building"></i>
-              <h4>Gestion de projet et outils de développeur</h4>
-
-              <div class="click">
-                
-                <span>Voir plus</span>
-                <i class="fa-solid fa-fingerprint"></i>
-              </div>
-
-              <figcaption class="description-competence">
-                spécifications techniques, découpage des tâches, solutions
-                techniques,<br />
-                veille technologique, Git/Github, environnement front-end.
-              </figcaption>
-            </figure>
-          </li>
+          
 
           <li>
             <figure class="competence-integration-web">
-              <i class="fa-solid fa-file-code"></i>
+              <img src="/assets/icons/html.svg" width="64" height="64" alt="logo html" />
+              <img src="/assets/icons/css.svg" width="64" height="64" alt="logo css" />
             
                 <h4>Intégration web HTML et CSS</h4>
                 <div class="click">
@@ -186,7 +164,7 @@
 
           <li>
             <figure class="competence-integration-web">
-              <i class="fa-solid fa-laptop-code"></i>
+              <img src="/assets/icons/javascript.svg" width="64" height="64" alt="logo javascript" />
             
                 <h4>Développement web JavaScript</h4>
                 <div class="click">
@@ -204,7 +182,7 @@
 
           <li>
             <figure class="competence-dew-web">
-              <i class="fa-solid fa-laptop-code"></i>
+              <img src="/assets/icons/react.svg" width="64" height="64" alt="logo react" />
               
                 <h4>React</h4>
 
@@ -223,68 +201,14 @@
             </figure>
           </li>
 
-          <li>
-            <figure class="competence-dew-web">
-              <i class="fa-solid fa-laptop-code"></i>
-             
-                <h4>Développement back-end avec NodeJs</h4>
-                <div class="click">
-                  <span>Voir plus</span>
-                  <i class="fa-solid fa-fingerprint"></i>
-                </div>
+          
 
-              <figcaption class="description-competence">
-                Implémenter un modèle logique de données conformément à la
-                réglementation<br />
-                Mettre en œuvre des opérations CRUD (Créer, Read, Update, Delete), de manière sécurisée<br />
-                Stocker des données de manière sécurisée
-              </figcaption>
-            </figure>
-          </li>
-
-          <li>
-            <figure class="competence-dew-web">
-              <i class="fa-solid fa-laptop-code"></i>
-              
-              <h4>Développement back-end avec NodeJs</h4>
-
-              <div class="click">
-                <span>Voir plus</span>
-                <i class="fa-solid fa-fingerprint"></i>
-              </div>
-
-              <figcaption class="description-competence">
-                Déployer un site statique en ligne
-              </figcaption>
-            </figure>
-          </li>
-
-          <li>
-
-              <figcaption class="description-competence">
-                Site vitrine<br />
-                site E-commerce<br />
-                site blog<br />
-                site de réservation ..etc.
-              </figcaption>
-            </figure>
-          </li>
         </ul>
 
-        <ul class="langages-tech">
-          <li><i class="fab fa-html5"></i><span> HTML</span></li>
-          <li><i class="fa-brands fa-css3-alt"></i> Css</li>
-          <li><i class="fa-brands fa-js"></i> JavaScript</li>
-          <li><i class="fab fa-react"></i> React</li>
-          <li><i class="fa-brands fa-sass"></i> Sass</li>
-          <li><i class="fa-brands fa-bootstrap"></i> Bootstrap</li>
-          <li><i class="fa-brands fa-git"></i> Git</li>
-          <li><i class="fa-brands fa-node"></i> NodeJs</li>
-        </ul>
       </section>
     </main>
 
-    <section class="parcours">
+    <section class="parcours" id="parcours">
       <h2>Expérience & Diplômes</h2>
 
       <div class="cv">
@@ -306,7 +230,7 @@
         </div>
       </div>
       <div class="cv-btn">
-        <a class="aside-cv" href="../assets/cv.pdf" download>Télechargez mon CV</a>
+        <a class="aside-cv" href="/assets/CV_WEB Anne Laurence.pdf" target="_blank" download>Télechargez mon CV</a>
       </div>
     </section>
     <footer>
@@ -342,6 +266,6 @@
     </footer>
 
 
-    <script src="script.js" async defer></script>
+    <script src="/assets/js/script.js" defer></script>
   </body>
 </html>
