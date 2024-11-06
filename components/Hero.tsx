@@ -4,6 +4,7 @@ import { Button } from "./ui/button";
 import { Download } from "lucide-react";
 import Image from "next/image";
 import Canvas from "./Canvas";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -14,10 +15,12 @@ export default function Hero() {
           <h2 className="text-6xl font-semibold text-primary">Anne Laurence</h2>
           <h3 className="text-3xl">Développeuse web</h3>
         </div>
+        <Link href="/CV_WEB Anne Laurence.pdf" >
         <Button>
           Télécharger mon CV <Download />
         </Button>
-      </div>
+        </Link>
+      </div> 
       <div className=" z-10">
         <Image
           src="/avatar.png"
