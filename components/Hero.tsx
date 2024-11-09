@@ -23,11 +23,11 @@ export default function Hero() {
       </div> 
       <div className=" z-10">
         <Image
-          src="/avatar.png"
-          alt="Avatar"
+          src=""
+          alt=""
           width={300}
           height={300}
-          className="rounded-full"
+          className="rounded-full" 
         />
       </div>
     </Section>
