@@ -23,7 +23,7 @@ export default function Hero() {
       </div> 
       <div className=" z-10">
         <Image
-          src=""
+          src="/public/avatar.png"
           alt=""
           width={300}
           height={300}

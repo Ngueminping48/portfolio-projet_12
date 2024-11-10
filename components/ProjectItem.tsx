@@ -25,7 +25,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
           <Image
             className="w-full h-56 object-cover"
             src={`${imageUrl}`}
-            alt={`${name} Avatar`}
+            alt={`${name} anne laurence`}
             width={600}
             height={500}
             priority
